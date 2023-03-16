@@ -13,6 +13,8 @@ require __DIR__ . '/wp-load.php';
 
 require __DIR__ . '/wp-blog-header.php';
 
+
+
 if ( ! is_multisite() ) {
 	wp_redirect( wp_registration_url() );
 	die();
